@@ -126,8 +126,11 @@ header{
 }
 .knownledge__heading div {
     padding: 8px 12px;
-    width: 25%;
-    margin-left: 12px;
+    width: 24%;
+    margin-right: 12px;
+}
+.knownledge__heading div:last-child {
+    margin-right: 0;
 }
 .knownledge__heading div h4{
     background:url('../images/arrow-up.png') no-repeat 95% rgba(255, 255, 255, 0.4);
@@ -179,11 +182,14 @@ header{
     width: 100%;
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-around;
 }
 .hobbies__slide img{
-    width: 24%;
+    width: 25%;
     height: 200px;
+    padding-right: 12px;
+}
+.hobbies__slide img:last-child{
+    padding-right: 0;
 }
 .contact{
     padding: 40px 32px;
